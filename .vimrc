@@ -47,3 +47,12 @@ set path=./**
 
 set statusline=%F%m%r%h%w%=\ [ft=%Y]\ %{\"[fenc=\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\"+\":\"\").\"]\"}\ [ff=%{&ff}]\ [asc=%03.3b]\ [hex=%02.2B]\ [pos=%04l,%04v][%p%%]\ [len=%L]
 set laststatus=2
+
+" netrw配置
+" 1用水平拆分窗口打开文件
+" 2用垂直拆分窗口打开文件
+" 3用新建标签页打开文件
+" 4用前一个窗口打开文件
+let g:netrw_browse_split = 4
+" 文件浏览器的宽度为窗口的25%
+let g:netrw_winsize = 25
