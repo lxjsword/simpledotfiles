@@ -2,6 +2,7 @@ alias rm="rm -i"
 alias ta="tmux a"
 alias ll="ls -al"
 
+# https://www.jianshu.com/p/d59ed9f226d1
 # 配置端口转发，使用ssh连接VirtualBox虚拟机
 #设置 -> 网络 -> 网络地址转换(NAT) -> 高级 -> 端口转发 -> 添加规则 :
 #名称可随便填写，如ssh
